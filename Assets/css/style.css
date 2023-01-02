@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Sono', sans-serif;
+}        
+element.style {
+    width: 102px;
+    height: 93px;
+    margin-left: -17px;
+}
+.container {
+        width: 1224px;
+        text-align: center;
+        margin: 0 auto;
+    }
+.logo-container {
+    display: inline-block;
+}
+h2 {
+    text-transform: uppercase;
+}
+.nav-container {
+    text-align: center;
+}
+
+nav.header-navigation {
+    margin-left: 0px;
+}
+
+header {
+    background: #140201;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    font-size: 14px;
+    text-decoration: none;
+    margin: 16px;
+    color: white;
+}
+h1 {
+    font-size: 19px;
+    color: azure;
+    padding: 7px;
+    text-align: center;
+}
+/* Banner Styles */
+.banner-section {
+    background: url('../Images/banner.jpg.jpg') no-repeat;
+    height: 147vh;
+    background-size: cover;
+}
+
+/* About Me styles */
+.about-section h2 {
+    text-align: center;
+    margin-bottom: -36px;
+    margin-left: 567px;
+}
+section.about-section {
+    padding: 43px;
+}
+img {
+    width: 384px;
+    margin-left: 52px;
+    margin-top: -10px;
+}
+.about-right {
+    width: 50%;
+    float: right;
+    text-align: justify;
+    font-size: x-large;
+}
+.about-left {
+    width: 50%;
+    display: inline-block;
+}
+.container {
+    width: 1224px;
+    margin: 0 auto;
+}
+section.about-section {
+    background: maroon;
+}
+.about-right p {
+    margin-top: 75px;
+}
+
+/*Projects styles */
+section.projects-section {
+    background: maroon;
+    padding: 29px;
+}
+section.projects-section h2 {
+    text-align: center;
+}
+section.projects-section .Column {
+    width: 28%;
+    display: inline-block;
+}
+section.projects-section .Column span {
+    margin: 0 auto 4px;
+    text-align: center;
+    font-size: 22px;
+}
+.row.\32 {
+    margin-top: 22px;
+}
+.row.\31 {
+    text-align: center;
+    margin-top: 33px;
+}
+
+/*contact styles */
+
+section.contact-section {
+    text-align: center;
+    padding: 43px;
+    background: maroon;
+}
+.Column.\31 {
+    margin-top: 29px;
+}
+.Column.\31 {
+    margin-top: 29px;
+    display: inline-block;
+    width: 398px;
+}
+a {
+    font-size: 14px;
+    text-decoration: none;
+    margin: 16px;
+    color: #ffffff;
+}
