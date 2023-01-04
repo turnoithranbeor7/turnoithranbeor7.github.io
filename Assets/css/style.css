@@ -44,11 +44,12 @@ a {
     color: white;
 }
 h1 {
-    font-size: 19px;
+    font-size: 26px;
     color: azure;
-    padding: 7px;
+    padding: 337px;
     text-align: center;
     font-weight: 300;
+    font-variant: small-caps;
 }
 /* Banner Styles */
 .banner-section {
