@@ -91,6 +91,13 @@ section.about-section {
     margin-top: 75px;
 }
 
+/*Skills styles */
+section.skills-section {
+    background: maroon;
+    padding: 29px;
+}
+
+
 /*Projects styles */
 section.projects-section {
     background: maroon;
