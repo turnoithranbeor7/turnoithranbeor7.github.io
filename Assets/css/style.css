@@ -48,6 +48,7 @@ h1 {
     color: azure;
     padding: 7px;
     text-align: center;
+    font-weight: 300;
 }
 /* Banner Styles */
 .banner-section {
