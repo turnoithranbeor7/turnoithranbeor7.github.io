@@ -119,6 +119,7 @@ section.projects-section {
     background: url('../Images/yellow\ moon.jpg') no-repeat;
     height: 87vh;
     background-size: cover;
+    padding: 35px;
 }
 section.projects-section h2 {
     text-align: center;
