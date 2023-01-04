@@ -7,8 +7,8 @@ body {
     font-family: 'Sono', sans-serif;
 }                                          
 img.logo {
-    margin-top: 5px;
-    margin-left: 546px;
+    margin-top: 11px;
+    margin-left: 586px;
     height: 79px;
     width: 102px;
 }
@@ -30,7 +30,7 @@ h2 {
 
 nav.header-navigation {
     margin-right: -23px;
-    margin-top: -17px;
+    margin-top: 9px;
 }
 
 header {
