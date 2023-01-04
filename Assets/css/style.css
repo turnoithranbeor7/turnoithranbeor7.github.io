@@ -13,10 +13,10 @@ img.logo {
     width: 102px;
 }
 container {
-        width: 1224px;
-        text-align: center;
-        margin: 0 auto;
-    }
+    width: 1224px;
+    text-align: center;
+    margin: 0 auto;
+}
 .logo-container {
     display: inline-block;
 }
