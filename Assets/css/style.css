@@ -5,13 +5,14 @@
 }
 body {
     font-family: 'Sono', sans-serif;
-}        
-element.style {
+}                                          
+img.logo {
+    margin-top: 5px;
+    margin-left: 546px;
+    height: 79px;
     width: 102px;
-    height: 93px;
-    margin-left: -17px;
 }
-.container {
+container {
         width: 1224px;
         text-align: center;
         margin: 0 auto;
@@ -21,17 +22,19 @@ element.style {
 }
 h2 {
     text-transform: uppercase;
+    color: white;
 }
 .nav-container {
     text-align: center;
 }
 
 nav.header-navigation {
-    margin-left: 0px;
+    margin-right: -23px;
+    margin-top: -17px;
 }
 
 header {
-    background: #140201;
+    background: #000000;
 }
 * {
     margin: 0;
@@ -45,33 +48,34 @@ a {
 }
 h1 {
     font-size: 26px;
-    color: azure;
-    padding: 337px;
-    text-align: center;
+    color: white;
+    padding: 309px;
     font-weight: 300;
     font-variant: small-caps;
+    margin-left: 268px;
 }
 /* Banner Styles */
 .banner-section {
-    background: url('../Images/banner.jpg.jpg') no-repeat;
-    height: 147vh;
+    background: url('../Images/banner1.jpg') no-repeat;
+    height: 87vh;
     background-size: cover;
 }
 
 /* About Me styles */
+
 .about-section h2 {
     text-align: center;
-    margin-bottom: -36px;
-    margin-left: 567px;
+    color: white;
+
+}
+img {
+    height: 440px;
+    margin-top: 114px;
 }
 section.about-section {
     padding: 43px;
 }
-img {
-    width: 384px;
-    margin-left: 52px;
-    margin-top: -10px;
-}
+
 .about-right {
     width: 50%;
     float: right;
@@ -85,28 +89,39 @@ img {
 .container {
     width: 1224px;
     margin: 0 auto;
+    height: 96px;
 }
 section.about-section {
-    background: maroon;
+    background: url('../Images/mooncat.jpg') no-repeat;
+    height: 87vh;
+    background-size: cover;
 }
 .about-right p {
-    margin-top: 75px;
+    margin-top: 218px;
+    color: white;
 }
 
 /*Skills styles */
 section.Skills-section {
-    background: maroon;
-    padding: 29px;
+    background: url('../Images/bulb.jpg') no-repeat;
+    height: 87vh;
+    background-size: cover;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
 }
 
 
 /*Projects styles */
 section.projects-section {
-    background: maroon;
-    padding: 29px;
+    background: url('../Images/yellow\ moon.jpg') no-repeat;
+    height: 87vh;
+    background-size: cover;
 }
 section.projects-section h2 {
     text-align: center;
+    color: white;
 }
 section.projects-section .Column {
     width: 28%;
@@ -124,13 +139,16 @@ section.projects-section .Column span {
     text-align: center;
     margin-top: 33px;
 }
-
+p {
+    color: white;
+}
 /*contact styles */
 
 section.contact-section {
     text-align: center;
     padding: 43px;
-    background: maroon;
+    background: #1e1a1a;
+    height: 20vh;
 }
 
 .Column.\31 {
