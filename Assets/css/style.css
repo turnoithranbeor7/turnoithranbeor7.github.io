@@ -130,15 +130,13 @@ section.contact-section {
     padding: 43px;
     background: maroon;
 }
-.Column.\31 {
-    margin-top: 29px;
-}
+
 .Column.\31 {
     margin-top: 28px;
     display: inline-block;
     width: 398px;
     font-size: 25px;
-}
+}   
 a {
     font-size: 14px;
     text-decoration: none;
