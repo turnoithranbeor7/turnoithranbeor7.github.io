@@ -243,6 +243,14 @@ style
 /*Carousel Item active*/
 
 img, svg {
-    vertical-align: middle;
-    margin-top: auto;
+  vertical-align: middle;
+  margin-top: auto;
+}
+
+
+
+.fw-bold {
+    font-weight: 700!important;
+    color: white;
+    margin: 10px;
 }
