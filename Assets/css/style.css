@@ -247,4 +247,9 @@ img, svg {
   margin-top: auto;
 }
 
+/*Cover*/
 
+.fw-bold {
+  font-weight: 700!important;
+  margin: 10px;
+}
