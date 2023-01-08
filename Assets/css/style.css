@@ -137,7 +137,7 @@ section.projects-section {
     text-rendering: auto;
     display: inline-block;
     text-transform: none;
-    speak: none;
+    speak-as: none;
     -webkit-font-smoothing: antialiased;
     color: white;
     -moz-osx-font-smoothing: grayscale;
