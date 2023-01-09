@@ -487,13 +487,13 @@ section.projects-section .Column span {
 p {
     color: white;
 }
-/*contact styles 
+/contact styles */
 
 section.contact-section {
     text-align: center;
     padding: 43px;
     background: #1e1a1a;
-    height: 20vh;
+    height: 37vh;
 }
 
 .Column.\31 {
