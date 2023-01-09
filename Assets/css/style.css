@@ -1,8 +1,330 @@
 @import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
-* {
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'sono', sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: url('../Images/banner1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    color: white;
+    font-size: 28px;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+    transition: .3s;
+}
+img.logo {
+    height: 100px;
+    width: 124px;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+    color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content p{
+    margin: 20px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+/*About Section*/
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h3{
+    color: rgb(255, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-left: 55px
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 55px
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    margin-left: 55px;
+}
+/*Skills*/
+
+html {
+    background: dimgray;
+}
+.section{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.section{
+    background-color: #333;
+    text-transform: uppercase;
+}
+h4{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h6{
+    margin: 5px;
+    color: rgb(240, 235, 235);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.skill-6{
+    width: 500px;
+    margin: 60px auto;
+    color: red;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.skill-6 li{
+    padding: 10px;  
+}
+.bar{
+    background: #52565e;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(223, 4, 51)0%, rgb(243, 27, 27)100%);
+}    
+::marker {
+    color: transparent;
+}
+.Singing{
+    width: 70%;
+    animation: Singing 2s;
+}
+.Instrument{
+    width: 20%;
+    animation: Instrument 3s;
+}
+.leadership{
+    width: 80%;
+    animation: leadership 3s;
+}
+.Problem-solving{
+    width: 80%;
+    animation: Problem-solving 3s;
+}
+.Programming{
+    width: 30%;
+    animation: Programming 3s;
+}
+.Coding{
+    width: 30%;
+    animation: Coding 3s;
+}
+@keyframes Singing{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes Instrument{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+}
+@keyframes leadership{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes Problem-solving{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes Programming{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+@keyframes Coding{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+
+/*Projects*/
+
+.title h7 {
+    color: #f10404;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    margin-left: 443px;
+    font-family: monospace;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f10404;
+}
+h8{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #f10404;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #f10404;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+/*button{
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+}
+*/
+
+
+
+/* {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Sono', sans-serif;
 }                                          
@@ -54,14 +376,14 @@ h1 {
     font-variant: small-caps;
     margin-left: 268px;
 }
-/* Banner Styles */
+/* Banner Styles 
 .banner-section {
     background: url('../Images/banner1.jpg') no-repeat;
     height: 87vh;
     background-size: cover;
 }
 
-/* About Me styles */
+/* About Me styles
 
 .about-section h2 {
     text-align: center;
@@ -102,7 +424,7 @@ section.about-section {
     margin-right: 94px;
 }
 
-/*Skills styles */
+/*Skills styles 
 section.Skills-section {
     background: url(../Images/bulb.jpg) no-repeat;
     height: 46vh;
@@ -121,7 +443,7 @@ h2 {
 }
 
 
-/*Projects styles */
+/*Projects styles 
 section.projects-section {
     background: url('../Images/yellow\ moon.jpg') no-repeat;
     height: 87vh;
@@ -165,7 +487,7 @@ section.projects-section .Column span {
 p {
     color: white;
 }
-/*contact styles */
+/*contact styles 
 
 section.contact-section {
     text-align: center;
@@ -190,6 +512,7 @@ a {
 /*bootstrap*/
 
 style
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
