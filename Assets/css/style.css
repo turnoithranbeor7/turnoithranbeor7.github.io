@@ -563,6 +563,9 @@ style
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
+h2.featurette-heading.fw-normal.lh-1 {
+    color: black;
+}
 
 /*Carousel Item active*/
 
