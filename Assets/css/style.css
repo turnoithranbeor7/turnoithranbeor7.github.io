@@ -1,3 +1,4 @@
+/*
 @import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
 
 *{
@@ -68,7 +69,7 @@ img.logo {
     line-height: 25px;
 }
 
-/*About Section*/
+/*About Section*
 
 .about{
     width: 100%;
@@ -115,7 +116,7 @@ img.logo {
     margin-bottom: 45px;
     margin-left: 55px;
 }
-/*Skills*/
+/*Skills*
 
 html {
     background: dimgray;
@@ -246,7 +247,7 @@ h6{
     }
 }
 
-/*Projects*/
+/*Projects*
 
 .title h7 {
     color: #f10404;
@@ -487,7 +488,7 @@ section.projects-section .Column span {
 p {
     color: white;
 }
-/contact styles */
+/contact styles *
 
 section.contact-section {
     text-align: center;
@@ -509,7 +510,7 @@ a {
     color: #ffffff;
 }
 
-/*bootstrap*/
+/*bootstrap*
 
 style
 
@@ -567,14 +568,14 @@ h2.featurette-heading.fw-normal.lh-1 {
     color: black;
 }
 
-/*Carousel Item active*/
+/*Carousel Item active*
 
 img, svg {
   vertical-align: middle;
   margin-top: auto;
 }
 
-/*Cover*/
+/*Cover*
 
 .fw-bold {
   font-weight: 700!important;
